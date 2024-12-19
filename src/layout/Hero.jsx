@@ -15,7 +15,7 @@ const Hero = () => {
           </p>
 
           {/* company stats */}
-          <div className="stat-info d-flex">
+          <div className="stat-info d-flex justify-content-center">
             <div className="info info-1 px-2 border-start border-2">
               <h4 className="mb-0">1200+</h4>
               <p className="small text-white mb-0">Rentals</p>
