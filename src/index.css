@@ -27,3 +27,8 @@ button {
   height: 100vh;
   background-color: #00092999;
 }
+
+/* stat info design */
+.stat-info .info h4 {
+  color: #f56630;
+}
