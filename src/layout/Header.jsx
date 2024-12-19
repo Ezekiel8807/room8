@@ -1,12 +1,15 @@
 //import logo image
 import logo from "../assets/logo/Frame1.svg";
 
+//import logo image
+import navBtn from "../assets/logo/menu-01.svg";
+
 // button component
 import { Button } from "../components/Button";
 
 const Header = () => {
   return (
-    <header className="container p-3 d-flex  justify-content-around">
+    <header className="container-xxl container-md p-3 d-flex  justify-content-between">
       <a
         className="text-decoration-none text-white d-flex align-items-center"
         href="/"
@@ -15,7 +18,11 @@ const Header = () => {
         <span className="ms-1">Room8</span>
       </a>
 
-      <nav className="header-nav">
+      <div className="nav-menu d-md-none">
+        <img src={navBtn} alt="nav-btn" />
+      </div>
+
+      <nav className="header-nav d-none d-md-block">
         <a className="mx-3 small text-white text-decoration-none" href="/">
           Home
         </a>
@@ -36,13 +43,13 @@ const Header = () => {
         </a>
       </nav>
 
-      <div className="header-btn">
+      <div className="header-btn d-none d-md-block">
         <Button
           btnStyle={{
             with: "93px",
             color: "#F56630",
             margin: "0 5px",
-            padding: "3px 5px",
+            padding: "3px 9px",
             fontSize: "12px",
             borderRadius: "5px",
             backgroundColor: "#1018280D",
@@ -54,7 +61,7 @@ const Header = () => {
           btnStyle={{
             with: "93px",
             margin: "0 5px",
-            padding: "3px 5px",
+            padding: "3px 9px",
             color: "#ffffff",
             fontSize: "12px",
             borderRadius: "5px",
