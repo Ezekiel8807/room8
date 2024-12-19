@@ -1,5 +1,5 @@
 // components
-import Hero from "../layout/Header";
+import Hero from "../layout/Hero";
 
 function App() {
   return (
