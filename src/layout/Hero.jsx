@@ -22,7 +22,7 @@ const Hero = () => {
             </div>
 
             <div className="info info-2 px-2 border-start border-2">
-              <h4 className="mb-0">200+</h4>
+              <h4 className="mb-0">1000+</h4>
               <p className="small text-white mb-0">Listed properties</p>
             </div>
 
