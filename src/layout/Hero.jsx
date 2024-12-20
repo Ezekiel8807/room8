@@ -100,7 +100,7 @@ const Hero = () => {
         {/* desktop-search-element end*/}
 
         {/* mobile-search-element start*/}
-        <div className="d-md-none bg-white w-75 m-auto mt-3 mb-4 p-2">
+        <div className="d-md-none bg-white w-75 m-auto my-5 p-2">
           <div className="d-flex align-items-center justify-content-between">
             <div className="search">
               <input
