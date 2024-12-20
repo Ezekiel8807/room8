@@ -1,8 +1,6 @@
-//import logo image
+//import images
 import logo from "../assets/logo/Frame1.svg";
-
-//import logo image
-import navBtn from "../assets/logo/menu-01.svg";
+import navBtn from "../assets/icons/menu-01.svg";
 
 // button component
 import { Button } from "../components/Button";

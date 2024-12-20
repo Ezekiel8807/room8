@@ -8,6 +8,11 @@
   font-optical-sizing: auto;
 }
 
+div .row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+}
+
 button {
   background-color: none;
 }
@@ -31,4 +36,37 @@ button {
 /* stat info design */
 .stat-info .info h4 {
   color: #f56630;
+}
+
+.img-con img {
+  position: absolute;
+  margin: 0px auto;
+}
+
+.img-con-box {
+  width: 500px;
+  height: 200px;
+  position: relative;
+}
+
+.img-con-box img {
+  position: absolute;
+  margin: 0px auto;
+}
+
+.layer1 {
+  top: 0;
+  left: 100px;
+  width: 300px;
+}
+
+.layer2 {
+  top: 10px;
+  left: 50px;
+  width: 400px;
+}
+
+.layer3 {
+  top: 25px;
+  width: 500px;
 }
