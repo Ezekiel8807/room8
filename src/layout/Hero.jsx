@@ -1,7 +1,7 @@
 import Header from "./Header";
 
 // Icons
-import dateIcon from "../assets/icons/icon.svg";
+import dateIcon from "../assets/icons/date.svg";
 import searchIcon from "../assets/icons/vector.svg";
 
 // Images
@@ -92,7 +92,7 @@ const Hero = () => {
                   backgroundColor: "#f56630",
                 }}
               >
-                Browse Propertie{" "}
+                Browse Propertie
               </Button>
             </div>
           </div>
