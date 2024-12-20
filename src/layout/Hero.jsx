@@ -22,7 +22,7 @@ const Hero = () => {
           <div className="col-12 col-md-5">
             <div className="container">
               {/* presentation start */}
-              <h1 className="h1 display-5 fw-bold text-white text-center text-md-start mt-3 mt-md-5 mb-0">
+              <h1 className="h1 display-4 fw-bold text-white text-center text-md-start mt-3 mt-md-5 mb-0">
                 The Best Place To Find Your Dream House
               </h1>
               <p className="dispaly-6 small text-white text-center text-md-start p-2">
@@ -53,8 +53,8 @@ const Hero = () => {
           </div>
 
           <div className="col-md-6 d-none d-md-block">
-            <div className="container img-con">
-              <div className="img-con-box">
+            <div className="container ">
+              <div className="img-con-box m-auto">
                 <img className="layer1" src={layer1} alt="layer1" />
                 <img className="layer2" src={layer2} alt="layer2" />
                 <img className="layer3" src={layer3} alt="layer3" />
