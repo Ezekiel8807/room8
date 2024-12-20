@@ -2,6 +2,7 @@ import Header from "./Header";
 
 // Icons
 import dateIcon from "../assets/icons/icon.svg";
+import searchIcon from "../assets/icons/vector.svg";
 
 // Images
 import layer1 from "../assets/img/layer1.png";
@@ -21,7 +22,7 @@ const Hero = () => {
           <div className="col-12 col-md-5">
             <div className="container">
               {/* presentation start */}
-              <h1 className="h1 display-5 fw-bold text-white text-center text-md-start mt-5 mb-0">
+              <h1 className="h1 display-5 fw-bold text-white text-center text-md-start mt-3 mt-md-5 mb-0">
                 The Best Place To Find Your Dream House
               </h1>
               <p className="dispaly-6 small text-white text-center text-md-start p-2">
@@ -90,22 +91,57 @@ const Hero = () => {
                   borderRadius: "5px",
                   backgroundColor: "#f56630",
                 }}
-                value={"Browse Propertie"}
-              />
+              >
+                Browse Propertie{" "}
+              </Button>
             </div>
           </div>
         </div>
         {/* desktop-search-element end*/}
 
-        {/*<div className="col-12 col-md-6 d-md-none">
-              <div className="container img-con">
-                <div className="img-con-box">
-                  <img className="layer1" src={layer1} alt="layer1" />
-                  <img className="layer2" src={layer2} alt="layer2" />
-                  <img className="layer3" src={layer3} alt="layer3" />
-                </div>
-              </div>
-          </div> */}
+        {/* mobile-search-element start*/}
+        <div className="d-md-none bg-white w-75 m-auto mt-3 mb-4 p-2">
+          <div className="d-flex align-items-center justify-content-between">
+            <div className="search">
+              <input
+                className="border-0"
+                type="text"
+                name="location"
+                id="location"
+                placeholder="Search location"
+              />
+            </div>
+
+            <div className="browse px-3">
+              <Button
+                btnStyle={{
+                  fontSize: "12px",
+                  padding: "5px",
+                  color: "#ffffff",
+                  border: "none",
+                  fontWeight: "bold",
+                  borderRadius: "5px",
+                  backgroundColor: "#f56630",
+                }}
+              >
+                <span>
+                  <img src={searchIcon} alt="search-icon" />
+                </span>
+              </Button>
+            </div>
+          </div>
+        </div>
+        {/* desktop-search-element end*/}
+
+        <div className="col-12 col-md-6 d-md-none">
+          <div className="container img-con">
+            <div className="img-con-box">
+              <img className="layer1" src={layer1} alt="layer1" />
+              <img className="layer2" src={layer2} alt="layer2" />
+              <img className="layer3" src={layer3} alt="layer3" />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

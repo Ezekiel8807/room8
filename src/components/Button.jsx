@@ -1,3 +1,3 @@
-export function Button({ btnStyle, value }) {
-  return <button style={btnStyle}>{value}</button>;
+export function Button({ btnStyle, children }) {
+  return <button style={btnStyle}>{children}</button>;
 }

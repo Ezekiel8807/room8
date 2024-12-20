@@ -53,8 +53,9 @@ const Header = () => {
             backgroundColor: "#1018280D",
             border: "solid 1px #F56630",
           }}
-          value={"Log in"}
-        />
+        >
+          Log in
+        </Button>
         <Button
           btnStyle={{
             with: "93px",
@@ -66,8 +67,9 @@ const Header = () => {
             backgroundColor: "#F56630",
             border: "solid 1px #F56630",
           }}
-          value={"sign up"}
-        />
+        >
+          sign up
+        </Button>
       </div>
     </header>
   );

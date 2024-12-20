@@ -38,11 +38,6 @@ button {
   color: #f56630;
 }
 
-.img-con img {
-  position: absolute;
-  margin: 0px auto;
-}
-
 .img-con-box {
   width: 500px;
   height: 200px;
@@ -69,4 +64,35 @@ button {
 .layer3 {
   top: 25px;
   width: 500px;
+}
+
+@media screen and (max-width: 769px) {
+  .img-con-box {
+    width: 250px;
+    height: 100px;
+    margin: 10px auto;
+    position: relative;
+  }
+
+  .img-con-box img {
+    position: absolute;
+  }
+
+  .layer1 {
+    top: 0;
+    left: 15px;
+    width: 225px;
+  }
+
+  .layer2 {
+    top: 8px;
+    left: 2px;
+    width: 250px;
+  }
+
+  .layer3 {
+    top: 20px;
+    width: 275px;
+    left: -10px;
+  }
 }
