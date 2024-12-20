@@ -2,7 +2,7 @@ import Header from "./Header";
 
 // Icons
 import dateIcon from "../assets/icons/date.svg";
-import searchIcon from "../assets/icons/vector.svg";
+import searchIcon from "../assets/icons/search.svg";
 
 // Images
 import layer1 from "../assets/img/layer1.png";
